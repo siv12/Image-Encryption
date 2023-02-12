@@ -25,12 +25,25 @@ public class project{
             Image_input.close();
             Image_output.close();
 
-            System.out.println("Encryption Done");
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
     public static void main(String[] args) {
-        Encryption();
+        System.out.println("Enter 1 for Encryption and 2 for Decryption :");
+        int choice = new Scanner(System.in).nextInt();
+        switch (choice) {
+            case 1:
+                Encryption();
+                System.out.println("Encryption Done!");
+                break;
+            case 2:
+                Encryption();
+                System.out.println("Decryption Done!");
+                break;
+            
+            default:
+                break;
+        }
     }
 }
