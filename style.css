@@ -41,6 +41,60 @@ header{
     padding: 30px;
 }
 .navbar li a:hover{
-    color: rgb(185, 185, 185);
-    text-decoration: underline;
+    color: rgb(32, 197, 238);
+    
 }
+
+
+.form{
+    width: 250px;
+    height: 300px;
+    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position:absolute;
+    top: 150px;
+    left:870px;
+    border-radius:10px;
+    padding:25px;
+ }
+
+.form h2 a{
+    width:220px;
+    font-family:sans-serif;
+    text-align:center;
+    color: aqua;
+}
+.form h2 a:hover{
+    color: white;
+ }
+ .form .btn{
+    display: flex;
+    background:orange;
+    border:none;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    font-size:18px;
+    border-radius:10px;
+    margin-top: 105px;
+    cursor:pointer;
+ }
+
+ .form .btn a{
+    text-decoration:none;
+    color:black;
+    transition: o.3s ease;
+ }
+.cont{
+    color:white;
+}
+
+.abt
+{
+    color:white;
+}
+.call{
+    color:white;
+}
+
+
